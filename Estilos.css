@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@font-face {
+    font-family: "OpenSansExtraBold";
+    src:url("C:/Usuários/jean/Desktop/exercicio de js/site/open-sans-extrabold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+    src:url("C:/Usuários/jean/Desktop/exercicio de js/site/open-sans-bold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSansBoldItalic";
+    src:url("C:/Usuários/jean/Desktop/exercicio de js/site/open-sans-bold-italic.ttf");
+}
+
+*{
+    font-family: "Open Sans", sans-serif;	
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+table.tableG34, td.tdG34 {
+  border: 0px;
+  border-collapse: collapse;
+  padding: 0px;
+  margin: 0px;
+}
+
+td.tdG34{
+	width:717px;
+	height:776px;
+}
+
+#Logo{
+	margin-left:100px;
+	margin-top:30px;
+}
+
+#Menu{
+	float:right;
+	margin-top:65px;
+}
+
+.ItemMenu{
+	letter-spacing: 2px;
+	margin-right:40px;
+	color: #54524f;
+	font-weight: bold;
+	font-family: "OpenSansBold";
+}
+
+#Busca{
+	background-image: url('imagens/IconeLupa.jpg');
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position-x: calc(100% - 12px);
+	background-color: #c3bfbc;
+	padding-right:40px;
+	padding-left:10px;
+	border-radius: 25px;
+	border: 0px;
+	height: 40px;
+	width: 150px;
+}
+
+#Grupo1{
+	background-image: url('imagens/BG1.jpg');
+	background-repeat: no-repeat;
+	height:905px;
+	padding-left: 80px;
+}
+
+#TituloG1{
+	padding-top:230px;
+	font-size:91px;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-weight: bolder;
+	color: #deb37e;
+	line-height: 105px;
+	text-shadow: 5px -5px 4px #d8d6d2;
+	font-family: "OpenSansExtraBold"
+}
+
+#SubtituloG1{
+	color: #54524f;
+	letter-spacing: 2px;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 15px;
+	margin-bottom: 55px;
+	font-family: "OpenSansBoldItalic";
+}
+
+#MaisG1{
+	font-family: "OpenSansExtraBold";
+	color: #776c64;
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px 25px;
+	font-size: 25px;
+}
+
+#TextoG1{
+	font-style: italic;
+	color: #86837f;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+#Grupo2{
+	background-image: url('imagens/BG2.jpg');
+	background-repeat: no-repeat;
+	height:1118px;
+}
+
+#TituloG2{
+	font-family: "OpenSansExtraBold";
+	color: #e2a355;
+	font-size: 63px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#SubtituloG2{
+	color: #7f7770;
+	font-size: 27px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#ContainerG2{
+	width: 1181px; 
+	height: 525px; 
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.BoxG2{
+	width: 337px;
+	height: 525px;
+	background: rgba(45, 23, 3, .5);
+}
+
+.TituloBoxG2{
+	font-family: "OpenSansBold";
+	color: white;
+	font-size: 29px;
+	margin-top: 34px;
+	padding-left: 10px;
+}
+
+.TextoBoxG2{
+	color: white;
+	font-size: 23px;
+	padding-left: 10px;
+}
+
+#MaisG2{
+	font-family: "OpenSansExtraBold";
+	color: white;
+	background: rgba(45, 23, 3, .5);
+	border-radius: 30px;
+	padding: 15px 90px;
+	font-size: 25px;
+}
+
+.TituloTable{
+	font-family: "OpenSansBold";
+	color: white;
+	font-size: 58px;
+	margin-top: 60px;
+	margin-bottom: 0px;
+	padding-left: 105px;
+}
+
+.TextoTable{
+	color: white;
+	font-size:29px;
+	padding-left: 105px;
+	margin-bottom: 50px;
+}
+
+.MaisTable{
+	font-family: "OpenSansBold";
+	color: white;
+	background-color: #e2a355;
+	border-radius: 30px;
+	padding: 15px 90px;
+	font-size: 25px;
+	margin-left: 200px;
+}
+
+#Grupo5{
+	background-image: url('imagens/BG5.jpg');
+	background-repeat: no-repeat;
+	height:892px;
+	text-align: center;
+}
+
+#TituloG5{
+	font-weight: bold;
+	font-size: 58px;
+	color: white;
+	padding-top: 350px;
+	margin-bottom:0px;
+}
+
+#TextoG5{
+	font-size: 29px;
+	color:lightgray;
+}
+
+#Grupo6{
+	background-image: url('imagens/BG6.jpg');
+	background-repeat: no-repeat;
+	height:987px;
+	padding-right: 120px;
+	text-align:right
+}
+
+#Titulo1G6{
+	padding-top:360px;
+	font-size:75px;
+	margin-top:0px;
+	margin-bottom:0px;
+	color: #deb37e;
+	line-height: 100px;
+	text-shadow: 5px -3px 4px #adb0b1;
+	font-family: "OpenSansExtraBold";
+	font-style: italic;
+}
+
+#Titulo2G6{
+	font-size:75px;
+	margin-top:0px;
+	margin-bottom:0px;
+	color: #54524f;
+	text-shadow: 5px -3px 4px #adb0b1;
+	font-family: "OpenSansExtraBold";
+	font-style: italic;
+}
+
+#Grupo7{
+	background-image: url('imagens/BG7.jpg');
+	background-repeat: no-repeat;
+	height:760px;
+}
+
+#ContainerG7{
+	width: 1134px; 
+	height: 154px; 
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.TituloG7{
+	font-size: 33px;
+	font-family: "OpenSansBold";
+	color: #deb37e;
+}
+
+.TextoG7{
+	font-size: 19px;
+}
+
+#AspasG7{
+	font-size: 100px;
+	font-family: "OpenSansBold";
+	text-align: center;
+	margin-top: 300px;
+	margin-bottom: 0px;
+	color: #54524f;
+	line-height: 50px;
+}
+
+#CitacaoG7{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 0px;
+	font-weight: bold;
+	color: #54524f
+}
+
+#NomeG7{
+	font-size: 21px;
+	text-align: center;
+	font-family: "OpenSansBold";
+	color: #54524f;
+	margin-top: 50px;
+}
+
+#Grupo8{
+	background-image: url('imagens/BG8.jpg');
+	background-repeat: no-repeat;
+	height: 796px;
+	text-align:center;
+}
+
+#TituloG8{
+	font-size: 75px;
+	font-family: "OpenSansBold";
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 200px;
+}
+
+#TextoG8{
+	font-size: 30px;
+	color: #54524f;
+}
+
+#EmailG8{
+	margin-top: 30px;
+	padding-right: 130px;
+	padding-left: 30px;
+	border-radius: 35px;
+	border: 0px;
+	height: 60px;
+	width: 570px;
+	font-size: 25px;
+}
+
+#BotaoG8{
+	display: inline-block;
+	width: 250px;
+	height: 65px;
+	position: relative;
+	left: -100px;
+	color: white;
+	background-color: #54524f;
+	border-radius: 35px;
+	font-size: 25px;
+	border: 0px;
+	cursor: pointer;
+}
+
+#Grupo9{
+	background-image: url('imagens/BG9.jpg');
+	background-repeat: no-repeat;
+	height: 833px;
+}
+
+#ContainerG9{
+	margin: auto;
+	padding-top: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	width:1270px;
+	height:290px;
+}
+
+#TituloG9{
+	font-size: 32px;
+	color: white;
+	margin-top: 0px;
+	font-family: Montserrat;
+}
+
+#TextoG9{
+	font-size: 24px;
+	color: white;
+	font-family: Montserrat;
+}
+
+li.smenuitem a, li.smenuitem a:link:hover, li.smenuitem a:visited, li.smenuitem a:visited:hover {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: white;
+	float: left;
+	margin-right: 20px;
+}
+
+ul{
+	padding-inline-start: 0px;
+}
+
+table.tableG9{
+	color: white;
+	text-align: left;
+	border-collapse: collapse;
+	border: 0px;
+}
+
+table.tableG9 td{
+	border: 0px;
+	height: 30px;
+	font-family: Montserrat;
+	padding: 5px 20px;
+}
+
+table.tableG9 td.tableHeader{
+	font-size: 32px;
+	padding-bottom: 20px;
+}
